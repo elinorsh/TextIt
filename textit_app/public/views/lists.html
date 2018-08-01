@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Login</title>
+    <link rel="stylesheet" type="text/css" href="style.css" />
+</head>
+
+<body>
+
+<div class="webpage" ng-controller="listsController as listCtrl">
+    <div ng-init="listCtrl.initList()">
+        <h2>Fun Lists!</h2><br>
+        <h3>Common Expressions List:</h3>
+        <table id="lists1">
+            <thead>
+                <th>Sentence</th>
+                <th>Translation</th>
+            </thead>
+            <tbody>
+                <tr ng-repeat="sen in listCtrl.sentencesCommon">
+                    <td class="liststd">{{sen['sentence']}}</td>
+                    <td class="liststd">{{sen['translation']}}</td>
+                </tr>
+            </tbody>
+        </table>
+        <br>
+        <h3>Twitter Unique Expressions List:</h3>
+        <table id="lists2">
+            <thead>
+            <th>Sentence</th>
+            <th>Translation</th>
+            </thead>
+            <tbody>
+            <tr ng-repeat="sen in listCtrl.sentencesTwitter">
+                <td class="liststd">{{sen['sentence']}}</td>
+                <td class="liststd">{{sen['translation']}}</td>
+            </tr>
+            </tbody>
+        </table>
+        <br><br>
+    </div>
+
+    </div>
+
+</div>
+</body>
+</html>
+

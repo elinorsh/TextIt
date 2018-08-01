@@ -1,0 +1,163 @@
+html{
+    background-image: url("pics/bg1.jpg");
+    background-position: left;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+h2,h3{
+    font-family:'Bubbler One', cursive;
+    text-align: center;
+    line-height: 1px;
+    font-weight: bold;
+}
+
+h2{
+    font-size: 40px;
+    line-height: 1px;
+}
+h3{
+    font-size: 30px;
+    line-height: 1px;
+}
+h4{
+    font-size: 28px;
+}
+
+#textit{
+    display: inline;
+    font-size: 31px;
+    font-family:'Blippo', cursive;
+    text-align: center;
+    line-height: 1px;
+    color: #488c8e;
+    text-shadow: 1.7px 1.7px #1d4344;
+    padding-left: 4px;
+}
+
+label{
+    font-family:'Bubbler One', cursive;
+    font-size: 24px;
+    color: black;
+    font-weight: bold;
+}
+
+#mainmenu
+{
+    font-weight: bold;
+    font-family:'Bubbler One', cursive;
+    font-size: 22px;
+    word-spacing: 20px;
+}
+
+div span{
+    background: rgba(161, 200, 201, 0.3);
+    padding: 0px 155px 0px 155px;
+}
+
+input, select, button {
+    font-family: cursive;
+    border: 2px solid #555555;
+    border-bottom-color: black;
+    padding: 4px 8px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 2px;
+}
+button{
+    background-color: #e3e3e3;
+}
+
+#upper {
+    padding: 10px;
+    text-align: center;
+    margin: auto;
+    margin: 14px 62px;
+    background-position: left;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+#allpage {
+    background-image: url("pics/family.png");
+    margin: -5px 88px;
+    background-position: left top;
+    background-size: 204px 224px;
+    background-repeat: no-repeat;
+}
+
+.webpage{
+    background-position: bottom;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: block;
+    text-align: center;
+    margin: 0px 130px 0px 130px;
+    background: rgba(255, 255, 255,0.4);
+}
+
+a { color:black } /* Globally */
+a{
+    text-decoration: none;
+    cursor: pointer;
+}
+a:visited { text-decoration: none;}
+a:hover { text-decoration: none; color:black; }
+a:focus { text-decoration: none; color:black; }
+a:hover, a:active { text-decoration: none; color:grey; }
+
+table{
+    text-align: left;
+    font-family:'Bubbler One', cursive;
+    font-size: 20px;
+    font-style: oblique;
+    font-weight: bold;
+    padding: 16px;
+    margin-left:auto;
+    margin-right:auto;
+}
+
+tr:nth-child(even) {background-color: rgba(161, 200, 201, 0.3)}
+thead, th{
+    background-color: rgba(161, 200, 201, 0.5);
+    border-collapse: collapse;
+    border: 2px solid darkgray;
+    text-align: center;
+}
+td{
+    width: 50%;
+    text-align: center;
+    vertical-align: top;
+}
+.liststd{
+    border-collapse: collapse;
+    border: 1px solid lightgray;
+    padding: 1.5px 10px 1.5px 10px;
+    text-align: left;
+}
+
+#lists{
+    border-collapse: collapse;
+    font-family:'Bubbler One', cursive;
+    font-size: 20px;
+    font-style: oblique;
+    font-weight: bold;
+    border: 2px solid black;
+    margin-left:auto;
+    margin-right:auto;
+    border-color: lightgray;
+}
+
+textarea{
+    font-size: 18px;
+    margin: 1px;
+    padding: 1px;
+    resize: none;
+    height:110px;
+    width:280px;
+    overflow:scroll;
+}

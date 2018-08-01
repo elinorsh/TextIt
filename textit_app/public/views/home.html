@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" type="text/css" href="style.css" />
+    <meta charset="UTF-8">
+    <title>Home</title>
+</head>
+<body>
+
+<div ng-controller="homeController as homeCtrl" class="webpage" id="home">
+    <h2>let's translate!</h2>
+    <!--
+    <button ng-click="homeCtrl.getfromserver()">connected?</button>
+    !-->
+    <table>
+        <td>
+            <h4>I want to translate this:</h4>
+            <div id="left">
+                <div>
+                    <textarea ng-model="homeCtrl.toTranslate" placeholder="enter your sentence here..."> </textarea>
+                    <br><br>
+                    <button ng-click="homeCtrl.translate()">translate</button>
+                </div>
+
+            </div>
+        </td>
+        <td>
+            <div id="right" ng-show="homeCtrl.showTranslation">
+                <h4>the translation is:</h4><br>
+                <label>{{homeCtrl.translation}}</label>
+                <br><br><br><br><br>
+                <button ng-click="homeCtrl.sendmail()">email translation</button>
+            </div>
+        </td>
+        <td></td>
+    </table>
+    <br>
+
+</div>
+</body>
+</html>

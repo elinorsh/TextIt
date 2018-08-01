@@ -1,0 +1,12 @@
+{
+  "name": "Node&Angular",
+  "version": "0.0.1",
+  "dependencies": {
+    "body-parser": "latest",
+    "express": "latest",
+    "promise": "latest",
+    "tedious": "latest",
+    "cors": "latest",
+    "moment": "latest"
+  }
+}

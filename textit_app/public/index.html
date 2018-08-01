@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="myApp">
+<head>
+    <meta charset="UTF-8">
+    <title>TextIt</title>
+    <script src="angularScripts/angular.js"></script>
+    <script src="app.js"></script>
+    <link rel="stylesheet" type="text/css" href="views/style.css" />
+    <link href="https://fonts.googleapis.com/css?family=Indie+Flower" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=La Belle Aurore" rel='stylesheet'>
+    <link href="https://fonts.googleapis.com/css?family=Bubbler+One" rel="stylesheet">
+    <script type="text/javascript" src="angularScripts/angular-route.js"></script>
+    <script type="text/javascript" src="angularScripts/angular-local-storage.min.js"></script>
+    <script type="text/javascript" src="angularScripts/xml2json.js"></script>
+    <script type="text/javascript" src="Controllers/homeController.js"></script>
+    <script type="text/javascript" src="Controllers/listsController.js"></script>
+
+
+</head>
+<body id="allpage">
+    <div ng-controller="homeController as homeCtrl" id="upper">
+
+        <h3>Hello! and welcome to <p id="textit">textIt</p></h3>
+            <div id="mainmenu"><span>
+                <a ng-href="#/">Home</a>
+                <a ng-href="#/lists">Lists</a>
+                <a ng-href="#/about">About</a></span>
+            </div>
+        <div id="logo">
+        </div>
+    </div>
+    <ng-view></ng-view>
+</body>
+</html>
